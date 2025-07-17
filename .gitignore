@@ -142,4 +142,4 @@ Thumbs.db
 
 # Large data files (optional - uncomment if you want to exclude large datasets)
 # *.csv
-# glove/
+glove/
