@@ -96,11 +96,18 @@ This assignment focuses on Natural Language Processing (NLP) techniques for clot
    pip install pandas numpy scikit-learn gensim matplotlib seaborn scipy
    ```
 
-2. **Run Notebooks:**
+2. **Download GloVe Embeddings:**
+   The GloVe embeddings file is too large for GitHub. Download it manually:
+   - Visit: https://nlp.stanford.edu/projects/glove/
+   - Download `glove.6B.zip` (Common Crawl 6B tokens)
+   - Extract `glove.6B.50d.txt` to the `glove/` directory
+   - Or use wget: `wget http://nlp.stanford.edu/data/glove.6B.zip`
+
+3. **Run Notebooks:**
    - Start with `task1.ipynb` for data preprocessing
    - Continue with `task2_3.ipynb` for feature generation and classification
 
-3. **Output Files:**
+4. **Output Files:**
    - `count_vectors.txt`: Contains bag-of-words representations
    - Various model evaluation results and visualizations in notebooks
 
